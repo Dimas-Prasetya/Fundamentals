@@ -36,6 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/roll_label"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/image_dice_2"
         app:layout_constraintStart_toStartOf="@+id/image_dice_1"
         app:layout_constraintTop_toBottomOf="@+id/image_dice_1" />

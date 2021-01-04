@@ -34,7 +34,7 @@ class RulesFragment : Fragment() {
         )
 
         binding.playButton.setOnClickListener { view: View ->
-            view.findNavController().navigate(R.id.action_rulesFragment_to_gameFragment)
+            view.findNavController().navigate(RulesFragmentDirections.actionRulesFragmentToGameFragment())
         }
 
         return binding.root

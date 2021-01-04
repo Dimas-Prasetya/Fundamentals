@@ -34,7 +34,7 @@ class AboutFragment : Fragment() {
         )
 
         binding.playButton.setOnClickListener { view: View ->
-            view.findNavController().navigate(R.id.action_aboutFragment_to_gameFragment)
+            view.findNavController().navigate(AboutFragmentDirections.actionAboutFragmentToGameFragment())
         }
 
         return binding.root
